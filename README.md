@@ -16,6 +16,8 @@
  9. The deadly genius of drug cartels
  10. My DNA vending machine
 
+![john-legend-plays-piano-on-ted-stage](img/john-legend-ted.jpg)  
+
 ## Overview
 I came up with the idea for this project as a way to better understand generative models, and in particular, text generation. Although fickle may be one way to describe the project, I believe it's quite the opposite. Use cases are diverse and plentiful for text generation. This instantiation simply shows the power of generation as an aid to productivity for those who could use an assistant to help derive creative ideas: coming up with non-trivial restaurant or business names, assistance for educators looking for assignment ideas, researchers who could benefit from creative, unexplored papers within their domain expertise. Even professional poets have used text generation to analyze its benefit for writing assistance.
 
