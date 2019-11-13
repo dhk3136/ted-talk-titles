@@ -33,16 +33,31 @@ The project began with my attempt to train a dataset of complete transcripts of 
 
 One of the primary problems was GPT-2's tendency toward repetition the longer the sentences it tried to construct. Options for fine-tuning hyperparameters are available, time-consuming, and often times, problematic. Essentially, the model's major handle is what they call GPT's "temperature" parameter. The lower the temperature, the closer GPT stays on task but at the cost of high repetition. At the other extreme, a higher temperature creates more original (some might call this increased creativity) text at the expense of occasionally chaotic, non-coherent generation.  
 
-My next foray was to take a dataset of titles from machine learning papers to potentially derive creative ideas for researchers. Here, I found more success. Real-sounding sample paper titles began to emerge during training (sample output is a feature of GPT-2 training).  
+My next foray was to take a dataset of titles from machine learning papers to potentially derive creative ideas for researchers. Here, I found more success. Real-sounding sample paper titles began to emerge during training (sample output is a feature of GPT-2 training):  
 
-- complexity optimization for universal linear stochastic optimization  
 - anomaly detection with deep neural networks  
 - methodology for augmented bayesian networks  
+- annotations of corpora with context specific words and words  
 
 As well as the non-sensical (and on occasion, poetic):  
 - convex recursive optimization on the possibility of being  
+- flexible temps des moments du temps  
+- complexity optimization for universal linear stochastic optimization  
+- the effect of call comment on fool's labelling  
+- co-evolution of skip-gram and weighted-only regression algorithms for finite-state tensor completion  
 
+You can see from the above GPT-2's proclivity for repetition in two of the titles.
+
+For the above, I applied Fast.ai's library to the model in an effort to speed up training times and to familiarize myself with both fast.ai's features. The results were similar to what I'd expected. Fast.ai minimally reduced training time, but it did require less code and showcased a fast and powerful tool to simplify model parameter tuning and general setup.
+
+Finally, after a mostly-successful run with the academic titles dataset, I returned to the TED dataset and decided instead to train just the titles. These results proved to be the best. Convergence to 0.01 took only several hundred iterations, and as painful as it was to recognize--this portion of the project could have saved me weeks of training time.  
+
+## Results
+Still, the results proved far better than my previous two attempts. Although not a Turing Test, per se, initial responses from friends and colleagues demonstrated an abysmal failure to identify which titles were real and which ones were original text generations. Even as I sorted the real from the fake in order to run the demo, I consistently forgot which ones were which and had to constantly refer back to my notes to determine the correct answers.  
+
+I hope you fared better on the quiz than I did!
 
 > Quiz Answers:
 Numbers 6 and 8 are real titles.
-The rest is original generative text!
+The rest is original generative text!  
+
