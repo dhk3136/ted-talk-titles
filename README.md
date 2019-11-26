@@ -14,12 +14,13 @@
  7. Why is "you're a fighter" the wrong thing to say to someone in trauma?
  8. A thought experiment on the intelligence of crows
  9. The deadly genius of drug cartels
- 10. My DNA vending machine
+ 10. My DNA vending machine  
+
 
 ![john-legend-plays-piano-on-ted-stage](img/john-legend-ted.jpg)  
 
 ## Overview
-I came up with the idea for this project as a way to better understand generative models, and in particular, text generation. Although fickle may be one way to describe the project, I believe it's quite the opposite. Use cases are diverse and plentiful for text generation. This instantiation simply shows the power of generation as an aid to productivity for those who could use an assistant to help derive creative ideas: coming up with non-trivial restaurant or business names, assistance for educators looking for assignment ideas, researchers who could benefit from creative, unexplored papers within their domain expertise. Even professional poets have used text generation to analyze its benefit for writing assistance.
+This project's genesis provided inroads to better understand generative models, and in particular, text generation. Although fickle may be one way to describe the project, I believe it's quite the opposite. Use cases are diverse and plentiful for text generation. This instantiation simply shows the power of generation as an aid to productivity for those who could use an assistant to help derive creative ideas: coming up with non-trivial restaurant or business names, assistance for educators looking for assignment ideas, researchers who could benefit from creative, unexplored papers within their domain expertise. Even professional poets have used text generation to analyze its benefit for writing assistance.
 
 It's important to note that at the crux of these generative ideas is originality--originality derived from a machine, but no less unique. For example, take the list of TED titles above, google them, and you'll find they don't return search results--because they don't yet exist.
 
@@ -57,9 +58,11 @@ Finally, after a mostly-successful run with the academic titles dataset, I retur
 ## Results
 Still, the results proved far better than my previous two attempts. Although not a Turing Test, per se, initial responses from friends and colleagues demonstrated an abysmal failure to identify which titles were real and which ones were original text generations. Even as I sorted the real from the fake in order to run the demo, I consistently forgot which ones were which and had to constantly refer back to my notes to determine the correct answers.  
 
-I hope you fared better on the quiz than I did!
+I hope you fared better on my quiz than I did!
 
 > Quiz Answers:
 Numbers 6 and 8 are real titles.
 The rest is original generative text!  
 
+#### Credits  
+ - Header photo courtesy PBS
